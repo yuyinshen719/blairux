@@ -885,6 +885,11 @@ input[type=submit]:hover {
 		height: auto;
 	}
 
+	iframe{
+		width: 720px;
+		height: 405px;
+	}
+
 
 
 }
@@ -907,6 +912,11 @@ input[type=submit]:hover {
 	.project_content img{
 		width: 100%;
 		height: auto;
+	}
+
+	iframe{
+		width: 512px;
+		height: 288px;
 	}
 
 
@@ -1034,15 +1044,6 @@ input[type=submit]:hover {
 		height: auto;
 	}
 
-	.video{
-		width: 100%;
-		height: auto;
-	}
-
-	.projectinfo{
-		display: block;
-	}
-
 	.about {
     display: block;
     margin-left: auto;
@@ -1075,10 +1076,10 @@ input[type=submit]:hover {
 		height: auto;
 	}
 
-	.project_content iframe{
+	/*.project_content iframe{
 		width: 100%;
 		height: auto;
-	}
+	}*/
 
 	.projectinfo{
 		display: block;
@@ -1135,6 +1136,11 @@ input[type=submit]:hover {
 
 	.greeting{
 		width: 90%;
+	}
+
+		iframe{
+		width: 368px;
+		height: 207px;
 	}
 
 }
