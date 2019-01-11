@@ -113,7 +113,9 @@ nav ul a{
 	color: #ff6f59;
 }
 
-
+.card_title h2{
+	text-align: center;
+	margin: auto;
 }
 
 /*----------------------- SVG -------------------------*/
@@ -367,7 +369,7 @@ nav ul a{
 
 .hero{
 	width: 100%;
-	margin: -1rem 0;
+	margin: -3rem 0;
 }
 
 .bg{
@@ -871,6 +873,11 @@ input[type=submit]:hover {
 
 	.svg_wrapper{
 		margin-top: 2em;
+	}
+
+	.gif{
+		width: 30%;
+		height: 30%;
 	}
 
 }
