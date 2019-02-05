@@ -511,6 +511,10 @@ nav ul a{
   opacity: 1;
 }
 
+.mix-details {
+    pointer-events: none;
+}
+
 .mix-details h3{
   color: #fff;
   font-weight: 500;
