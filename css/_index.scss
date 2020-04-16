@@ -1,0 +1,238 @@
+
+
+/* ---------------------- HOME HOVER ---------------------------*/
+.mix-overlay {
+	background: rgba(14,9,11,0.5);
+	position: absolute;
+	height: 99%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+	border-radius: 2em;
+
+	.mix:hover & {
+		opacity: 1;
+	}
+}
+
+.mix-details {
+	position: absolute;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	pointer-events: none;
+
+	.mix:hover & {
+		top: 50%;
+		left: 50%;
+		opacity: 1;
+	}
+
+	h3{
+		color: #fff;
+		font-weight: 500;
+		letter-spacing: 0.15em;
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+	p{
+		color: #fff;
+		text-align: left;
+	}
+}
+
+.fadeIn-top{
+	top: 20%;
+}
+
+/* ---------------------- MIX IT UP-------------------------- */
+
+.mix,
+.gap {
+	display: inline-block;
+	vertical-align: top;
+	margin: 1rem;
+}
+
+.mix {
+	background: #fff;
+	border-radius: 5%;
+	position: relative;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		padding-top: 56.25%;
+	}
+}
+
+
+.buttons{
+	text-align: center;
+	margin: 2em;
+}
+
+.button {
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	border-radius: 40px;
+	background-color: white;
+	color: #ff6f59;
+	border: 1px solid #ff6f59;
+
+	&:hover {
+		background-color: #ff6f59; 
+		color: white;
+		cursor: pointer;
+		animation: bounce .5s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease;
+	}
+}
+
+@keyframes bounce {
+	from { transform: translate3d(0, 0, 0);}
+	to { transform: translate3d(0, -4px, 0); }
+}
+
+
+.mix_container {
+	text-align: center;
+
+	&:after {
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
+
+	img{
+		border-radius: 2em;
+	}
+}
+
+.typer{
+	color: #3f3f3f;
+
+}
+
+.txt-type{
+	color: #ff6f59;
+}
+
+.card_title h2{
+	text-align: center;
+	margin: auto;
+}
+
+/*----------------------- SVG -------------------------*/
+.svg_wrapper{
+	width: 100%;
+	position: relative;
+
+
+}
+
+.girl{
+	fill:none;stroke:#3F3F3F;
+	stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 5s linear forwards;
+}
+
+.eye{
+	fill:#3f3f3f;stroke:none;
+	stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 5s linear forwards;
+}
+
+
+.bulb{
+	fill:none;stroke:#3F3F3F;stroke-width:0.9728;stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 3s linear forwards;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+
+}
+
+.color{
+	fill:#ffff99;stroke:none;stroke-width:0.9728;stroke-miterlimit:10;
+	opacity: 0;
+	animation: colorIn 1s 2s ease-out forwards;
+}
+
+@keyframes colorIn {
+	from {opacity:0;}
+	to {opacity: 1;}
+}
+
+.laptop{
+	fill:none;stroke:#3F3F3F;stroke-width:1.2194;stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 3s linear forwards;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+
+}
+
+.light{
+	fill:none;stroke:#3F3F3F;stroke-width:0.9728;stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 5s linear forwards;
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+
+.coffee{
+	fill:none;stroke:#3F3F3F;stroke-width:1.2194;stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 8s linear forwards;
+
+}
+
+.desk{
+	fill:none;stroke:#3F3F3F;stroke-width:1.2194;stroke-miterlimit:10;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 8s linear forwards;
+
+}
+
+@keyframes dash {
+	from {
+		stroke-dashoffset: 1000;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}

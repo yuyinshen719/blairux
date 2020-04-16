@@ -1,0 +1,27 @@
+/*==================== FOOTER ====================*/
+.footer {
+	position: relative;
+	background: #db504a;
+	margin-top: 5em;
+	padding: 1em 10%;
+	text-align: center;
+
+	p{
+		color: #22181c;
+		font-size: 12px;
+	}
+
+	.icons{
+		list-style: none;
+		margin: auto;
+
+		a{
+			color: #fff;
+		}
+	}
+}
+
+.footer-icon{
+	margin: 0.5rem;
+	display: inline-block;
+}
