@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="558" height="451" viewBox="0 0 558 451">
+  <defs>
+    <linearGradient id="a" x1="22.173%" x2="79.963%" y1="7.734%" y2="92.425%">
+      <stop stop-color="#2FB7FF" offset="0%"/>
+      <stop stop-color="#3B09E8" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-71 -111)">
+    <g stroke-width="2" transform="rotate(30 122.192 461.808)">
+      <circle cx="246.5" cy="246.5" r="224.5" stroke="url(#a)"/>
+      <polyline stroke="#391EEB" points="225 460 247 482 269 460" stroke-linecap="round" transform="matrix(0 -1 -1 0 718 718)"/>
+      <polyline stroke="#30A4FC" points="225 11.5 247 33.5 269 11.5" stroke-linecap="round" transform="rotate(-90 247 22.5)"/>
+      <polyline stroke="#3195FB" points="0 236 22 258 44 236" stroke-linecap="round" transform="matrix(1 0 0 -1 0 494)"/>
+      <polyline stroke="#382DED" points="448.5 236 470.5 258 492.5 236" stroke-linecap="round" transform="matrix(-1 0 0 1 941 0)"/>
+    </g>
+    <text fill="#747474" transform="translate(527 145)" font-family="Lato-Regular, Lato" font-size="28">
+      <tspan x=".257" y="28">Ideation</tspan>
+    </text>
+    <text fill="#2FB5FF" transform="translate(95 113)" font-family="Lato-Regular, Lato" font-size="28">
+      <tspan x=".363" y="28">Research</tspan>
+    </text>
+    <text fill="#747474" transform="translate(500 503)" font-family="Lato-Regular, Lato" font-size="28">
+      <tspan x=".335" y="28">Prototype</tspan>
+    </text>
+    <text fill="#747474" transform="translate(70 458)" font-family="Lato-Regular, Lato" font-size="28">
+      <tspan x=".421" y="28">Test</tspan>
+    </text>
+  </g>
+</svg>
