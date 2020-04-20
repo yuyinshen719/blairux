@@ -567,6 +567,9 @@ nav {
     text-align: center; }
   .fomc .solution .solution-content {
     margin: auto; }
+    .fomc .solution .solution-content img {
+      display: block;
+      margin: auto; }
 
 /* Conclusion */
 .fomc .conclusion {
