@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html id = "base" lang="en">
 <head>
+    <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hello! Welcome to Blair Shen's personal Website. I'm a UX designer and a HCI Master's student at the University of Michigan.">
-    <meta name="keywords" content="Blair, Shen, Yu-Yin, Portfolio, UX Reseacher, senior, UX Designer, Design, Product, UI">
+    <meta name="description" content="Hello! Welcome to Blair Shen's portfolio. I'm a UX designer with a Master's degree in HCI from the University of Michigan.">
+    <meta name="keywords" content="Blair, Shen, Yu-Yin, Barnett, Portfolio, UX Reseacher, Senior, UX Designer, Design, Product, UI">
     <meta name="author" content="Blair Shen">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+    <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -24,319 +33,307 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
     <title >Blair Shen | AthleteJuvo</title>
 </head>
 
-<body>
+    <body>
 
-<header class="header">
-    <div class="header-logo">
-         <a href="index.html">
-            <img src="imgs/logo.svg" alt="Blair Shen's page logo"/>
-        </a>
-    </div>
-
-    <nav class="header-nav">
-        <ul>
-            <li><a href = "index.html" ><div class="header-item">Work</div></a></li>
-            <li><a href = "graphic.html" ><div class="header-item">Playground</div></a></li>
-            <li><a href = "about.html" ><div class="header-item">About</div></a></li>
-            <li><a href = "https://drive.google.com/file/d/1OekFso5PZZfHPDYHy_KhTiAXB17vkZ1y/view?usp=sharing" target="_blank"><div class="header-item">Resume</div></a></li>
-         </ul>
-        
-    </nav>
+    <header class="header">
+        <div class="header-logo">
+             <a href="index.html">
+                <img src="imgs/logo.svg" alt="Blair Shen's page logo"/>
+            </a>
+        </div>
     
-</header>
-<main>
-
-    <img src="imgs/Juvo_hero.png" class = "hero" alt = "project hero"/>
-
-    
-    <div class = "project_content">
-    <div class="bg_white">
-            <h1 class="main-content" tabindex="-1">AthleteJuvo</h1>
-        <h2>CHI Student Competition Project</h2>
-        <p>Student-athletes usually experience psychological issues during their injured period, which play important roles in their rehabilitation. The three major challenges are the loss of identity, isolation, and inability to understand and communicate their recovery progress between checkups. 
-        To assist the injured athletes, we propose AthleteJuvo, a collaborative gaming solution incorporating routine <b>rehabilitation exercises, team competition, and social supports.</b> Specifically, AthleteJuvo utilizes the competitive nature of athletes to <b>gamify the rehabilitation process.</b> Athletes rebuild their identity by forming a team with other injured athletes to compete with their rival schools. AthleteJuvo also helps injured athletes meet nearby injured athletes and connect back with their non-injured team members by sending challenges. To aid in recovery, AthleteJuvo uses wearable sensing fabric which collects and report movement data to the athlete’s therapist.</p>
-        <div class="contribution">
-        <h2>My Contribution</h2>
-        <p>I led the brainstorming and data analysis session; contributed to the UI design iteration, user research, and integrating the smart fabric solution.</p>
-    </div>
-    </div>
-<div class="bg_ivory">    
-    <div class="projectinfo">
-        <div class="role">
-            <h3>Role:</h3><p>UX research and design</p>
-            
-        </div>
-  
-        <div class="time">
-            <h3>Time:</h3><p>3 months</p>
-            <h3>Team size:</h3><p>4</p>
-        </div>
-        <div class="tools">
-            <h3>Tools:</h3><p>Pencil & Paper<br> Sketch<br> InVision<br> Survey</p>
-        </div>
-        <div class="skills">
-            <h3>Skills:</h3><p>Analytical research<br>
-                Sketching techniques<br>
-                Wireframing and prototyping<br>
-                UX testing</p>
-        </div>
-    </div>
-</div>
-
-<div class="bg_white"> 
-        <h2>Problem Overview</h2>
-        <h3>Injury is 1% physical and 99% psychological</h3>
-        <p>For student athletes, getting injured is not only about physical influence but also psychologically and socially. Since most of an athlete’s daily schedule is team-centered, once they get injured, they miss the social interactions they would have had otherwise. Without their regular training and practice, athletes also miss the element of competition in their lives.
-        <br>The key problems we aim to solve include:
+        <nav class="header-nav">
             <ul>
-                <li>The isolation and the feeling of uselessness during the injured period</li>
-                <li>The inconvenient methods of getting advice from athletes with similar experience</li>
-                <li>The inability to understand their rehab progress</li>
-            </ul></p>
-            <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_news.png" alt="CommonWealth preface"></div>
-        </div>  
-</div>
-
-<div class="bg_ivory">
-        <h2>Solution at a Glance</h2>
-        <h3>A community for injured athletes to talk, meet up and share information.</h3>
-        <p>Our goal is to help injured athletes overcome the psychological issues and strengthen the social support and information they need during their rehabilitation.</p>
-
-        <div class="video">
-            <iframe width="960" height="540" src="https://www.youtube.com/embed/JOV5UEyty8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-</div>
-
-<div class="bg_white">
-        <h1>Design Process</h1>
-        <h2>Understand the problems: In-depth interviews</h2>
-        <div class="stats">
-            <p class="number">2<br>Expert interviews</p>
-            <p class="number">6<br>Athlete interviews</p>
-        </div>
-        <p>To understand the problems injured athletes encountered in an exploratory way, we held semi-structured interviews, including 2 expert interviews and 6 interviews with injured athletes.<br><br>The data we gathered in this phase informed us more about the specific problems they encountered, including</p>
-        <ul>
-            <li>Going to physical therapy checkup is <b>time consuming</b></li>
-            <li><b>Not seeing the recovery progress</b> sometimes leads to <b>motivation lost</b></li>
-            <li>The feeling of being isolated and loss of identity stems from <b>the inability to participate in team activities</b> during the rehabilitation</li>
-            <li>A sense of <b>replacement</b> and uselessness</li>
-            <li>They wanted to <b>connect</b> with people who have similar experiences</li>
-        </ul>
-
-        <div class="project_photowrap">
-            <div><a href="imgs/Juvo_wall.png" data-lightbox="gallery" data-title="Data analysis" aria-label="Data analysis"><img src="./imgs/Juvo_wall.png" alt="Data analysis"></a></div>
-        </div>
-</div>
-
-<div class="bg_ivory">
-    <h2>Fact checking - Survey</h2>
-        <p>We then conducted an online survey which served as a fact checking tool, to know how much can we generalize the findings from interviews. The survey access was limited to injured athletes only.</p>
-        <ul>
-            <li>There were <b>96.5%</b> of the respondents who replied that the injury affected their <b>psychological well-being</b>; 92% of them reported suffering from depression and isolation during their rehabilitation</li>
-        </ul>
-        <p>Features that our users need the most (measured by a 5-point Likert scale):</p>
-        <ul>
-            <li>A wearable device to track your recovery data and progress (mean = 4)</li>
-            <li>Connecting them to other people with the same injury (mean = 3.9)</li>
-            <li>Receiving instruction from physical therapist when at home (mean = 3.8)</li>
-            <li>Turning the rehab exercise to a game (mean = 3.2)</li>
-        </ul>
-
-        <div class="stats">
-            <p class="number">87<br>Survey responses</p>
-        </div>
-        <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_profile1.png" alt="Profile1"></a></div>
-        </div>
-        
-
-
-        <div class="project_photowrap">
+                <li><a href = "index.html#home_h1" ><div class="header-item">Work</div></a></li>
+                <li><a href = "graphic.html" ><div class="header-item">Playground</div></a></li>
+                <li><a href = "about.html" ><div class="header-item">About</div></a></li>
+                <li><a href = "https://drive.google.com/file/d/1OekFso5PZZfHPDYHy_KhTiAXB17vkZ1y/view" target="_blank"><div class="header-item">Resume</div></a></li>
+             </ul>
             
-        </div>
-</div>
-<div class="bg_white">
-    <h2>User Journey</h2>
-        <p>We also drew out a user journey to find out the <b>touch points</b> and find potential solutions.</p>
-        <div class="project_photowrap">
-            <div><a href="imgs/Juvo_journey.png" data-lightbox="gallery" data-title="User Journey" aria-label="User Journey"><img src="./imgs/Juvo_journey_thumb.png" alt="User Journey"></a></div>
-        </div>
-    
-</div>
-<div class="bg_ivory">
-    <h2>Brainstorming &amp; Storyboard</h2>
-        <p>Based on our research findings, I led the brainstorming meeting with my teammates. I utilized the technique called <b>"How Might We"</b> to provoke thoughts. After everyone wrote down the "how might we" questions, each of us listed ideas and their pros and cons. We also made storyboards to see problems from the users' perspective. The final focus was to build a community for injured athletes to talk, meet up and share information.</p>
-        <div class="project_photowrap">
-            <div><a href="imgs/Juvo_brain.png" data-lightbox="gallery" data-title="Brainstorming" aria-label="Brainstorming"><img src="./imgs/Juvo_brain.png" alt="Brainstorming"></a></div>
-            <div><a href="imgs/Juvo_story.png" data-lightbox="gallery" data-title="Storyboard" aria-label="Storyboard"><img src="./imgs/Juvo_story.png" alt="Storyboard"></a></div>
-        </div>
-</div>
-<div class="bg_white">
-    <h2>Design Concept</h2>
-         <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_concept.png" alt="Concept"></div>
-        </div>
-        <p>Based on the findings from the user research phase, we made a few design decisions and focused on these features:</p>
-        <h3>Smart rehab with physical therapists’ instructions</h3>
-        <p>More than 69% of the survey respondents reported receiving instructions at home would be helpful for their rehab process. Combining the animation in the service and instructions from physical therapists, we can encourage athletes to do their rehabilitation exercise regularly.</p>
+        </nav>
+    </header>
+        <main>
 
-        <h3>Track recovery data</h3>
-        <p>The most serious issue reported by our interviewees and survey respondents was not seeing the progress leads to motivation lost. We address this issue by using a wearable sensing fabric patch to keep a rehabilitation exercise log.</p>
+            <img src="imgs/Juvo_hero.png" class = "hero" alt = "project hero"/>
 
-        <h3>Gamification - compete & cooperate</h3>
-        <p>To tackle the identity loss issue, we utilized the competitive nature of athletes to gamify the rehabilitation process. Users can compete in rehabilitation exercise against their rival school. To instill a sense of cooperation, they can form a team with injured athletes from the same school.</p>
-
-        <h3>Community building</h3>
-        <p>Our participants reported they tried to seek help from people who may have similar experiences, and to meet other injured athletes either online or offline to exchange information or get emotional support. Our design goal, therefore, was to help them connect with each other.</p>
-
-        <h3>Why mobile app?</h3>
-        <p>In order to search for and meet nearby injured athletes, the design needs to be handy and mobile. That’s why we chose to design a mobile app.</p>
-        
-</div>
-<div class="bg_ivory">
-    <h2>User testing</h2>
-        <h3>Wizard of Oz</h3>
-        <p>We went through two iterations to test our design solutions. First, I created wireframes and printed it out as a paper prototype. I then invited 5 participants to test the prototype. The participants were asked to perform the following tasks, with our team members using a Wizard of Oz technique:</p>
-        <ul>
-            <li>Attaching the sensing fabric on any of their joints or muscles, and starting the rehabilitation exercise</li>
-            <li>Checking their daily rehabilitation progress and team scores</li>
-            <li>Checking nearby injured athletes and inviting them to do rehabilitation exercises together</li>
-        </ul>
-        <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_ite1.png" alt="Paperprototype 1"></div>
-
-        </div>
-
-        <h3>Feedback gained from the wireframes</h3>
-        <ul>
-            <li>Users pointed out that besides timer, the app should help with counting the repeats.</li>
-            <li>Besides to know the assigned exercises, they wanted to know team scores as well.</li>
-            <li>Besides connecting with each other, they hope there's a injured athletes community.</li>
-            <li>The app should have progress visualization.</li>
-            <li>They couldn't know other injured athletes' locations at a glance.</li>
-            <li>They wanted to know what kind of sports others play.</li>
-        </ul>
-</div>
-
-<div class="bg_white">
-        <h2>Design refinement</h2>
-        <p>Based on the feedback, I made our second iteration. This time, participants could see the team scores, use the exercise counting, see others on a map, sports other athletes play, a forum feature, and a long-term progress visualization.</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_ite2.png" alt="wireframe 2"></div>
-        </div>
-        <h3>Feedback gained from the prototype</h3>
-        <ul>
-            <li>Participants found the team scores were not easy to understand.</li>
-            <li>It's still hard to interpret other users' locations.</li>
-            <li>They also wanted a feature that can help them identify problems in their rehab exercises.</li>
-            <li>The rehab progress visualization was great, but weekly progress is not long enough to see much difference.</li>
-        </ul>
-</div>
-
-<div class="bg_ivory">
-        <h2>Design refinement from the mid-fi prototype</h2>
-        <p>To help them gain feedback from the community, we decided to add a recording feature. The injured athletes can share their exercises with the community and ask for suggestions. I also added a calendar view of monthly progress visualization, and another way to present users on a map.</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_ite3.png" alt="wireframe 2"></div>
-        </div>
-        <h3>Feedback gained from the prototype</h3>
-        <ul>
-            <li>Participants like the feature that they can follow the animated instructions and record themselves at the same time.</li>
-            <li>They had no more trouble understanding the other users' location.</li>
-            <li>Calendar visualization provided more specific information, while the line graph summarized well of the rehab progress.</li>
-        </ul>
-        <h3>Decisions</h3>
-        <ul>
-            <li>Participants can decide whether they want to record the rehab exercise, the app would show the animation and the carema recording at the same time.</li>
-            <li>Using a calendr to keep a daily track is useful, but a line chart should be available when users want to check their long-term progress.</li>
-        </ul>
-</div>
-
-<div class="bg_white">
-    <h2>Task Flow</h2>
-        <p>Before making high-fidelity prototype, I created the task flow to make sure all the steps and features were considered.</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_flow.png" alt="Task Flow"></a></div>
-        </div>
-    <h2>Style Guide</h2>
-    <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_style.png" alt="Style guide"></div>
-        </div>
-</div>
-
-<div class="bg_ivory">
-    <h2>Final prototype</h2>
-        <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_screens.png" alt="Feature"></div>
-        </div>
-        <h3>Inspiring your peers</h3>
-        <p>We added a camera recording feature inside the app, because for users, it’s very encouraging to see other people are going through the injured period and accomplish these tasks! Users can choose to record their rehab or not, then save loaclly, or upload to the forum so they can inspire someone else, too!</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/juvo1.gif" alt="impact"></div>
-        </div>
-
-        <h3>Engaging with your non-injured teammates</h3>
-        <p>The user can invite their non-injured teammates to join the challenges as well. This helps initiate more interaction while the user is injured, and provide more chance for team bonding during rehab.</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/juvo2.gif" alt="impact"></div>
-        </div>
-
-        <h3>Seeing the progress</h3>
-        <p>Through the user research, we understand that being able to see the progress between check-ups is important. The stats feature will record the data from the fabric and show the user's progress. Users can manually input data as well, providing more flexibility.</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/juvo3.gif" alt="impact"></div>
-        </div>
-
-        <h3>Connecting with the community</h3>
-        <p>The “show nearby injured athletes" empowers users to connect with people who are currently in the same situation and provides the opportunity to look out for each other.</p>
-        <div class="project_photowrap">
-            <div><img src="./imgs/juvo4.gif" alt="impact"></div>
-        </div>
-
-
-        <div class="buttons"><a href="https://www.figma.com/proto/bkbxtFdACywlI9sWZW14h8w5/AthleteJuvo?node-id=0%3A1&scaling=scale-down" target="_blank">
-        <button type="button" class="prototype_button">View Prototype</button></a>
-        </div>
-</div>
-
-<div class="bg_white">
-        <h2>Impact</h2>
-    <h3>Honorable Mention</h3>
-    <p>AthleteJuvo won the Honorable Mention at the UMSI ExpoSItion 2018 from 60+ teams. The design, though was not selected into the CHI student competition final round, got a lot of positive feedback from the reviewers.</p>
-    <div class="project_photowrap">
-            <div><img src="./imgs/Juvo_impact.png" alt="impact"></div>
-    </div>
-</div>
-
-<div class="bg_ivory">
-    <h2>Reflection</h2>
-    <p>What we could have done better is to think how the "non-injured team members” would benefit from using the app, and how to better motivate them for using it. We could also narrow the scope more, focusing on specified injury types. Also, due to the time constraints, we could not involve the therapist over the development and evaluation process.</p>
-</div>
-
-
-
-
-        
-</div>
-</main>
-            <footer class="footer">
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon" aria-label="Blair's LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="mailto:yuyshen@umich.edu" class = "footer-icon" aria-label="Blair's email"><i class="far fa-envelope"></i></a>
-                    <a href="https://medium.com/@blairshen_2615" class = "footer-icon" aria-label="Blair's medium" target="_blank"><i class="fab fa-medium-m"></i></a>
-                    <a href="https://github.com/yuyinshen719" class = "footer-icon" aria-label="Blair's github" target="_blank"><i class="fab fa-github"></i></a>
+            <div class = "project_content">
+                <div class="bg_white">
+                    <h1 class="main-content" tabindex="-1">AthleteJuvo</h1>
+                    <h2>CHI Student Competition Project</h2>
+                    <p>Student-athletes usually experience psychological issues during their injured period, which play important roles in their rehabilitation. The three major challenges are the loss of identity, isolation, and inability to understand and communicate their recovery progress between checkups. 
+                    To assist the injured athletes, we propose AthleteJuvo, a collaborative gaming solution incorporating routine <b>rehabilitation exercises, team competition, and social supports.</b> Specifically, AthleteJuvo utilizes the competitive nature of athletes to <b>gamify the rehabilitation process.</b> Athletes rebuild their identity by forming a team with other injured athletes to compete with their rival schools. AthleteJuvo also helps injured athletes meet nearby injured athletes and connect back with their non-injured team members by sending challenges. To aid in recovery, AthleteJuvo uses wearable sensing fabric which collects and report movement data to the athlete’s therapist.</p>
+                    <div class="contribution">
+                        <h2>My Contribution</h2>
+                        <p>I led the brainstorming and data analysis session; contributed to the UI design iteration, user research, and integrating the smart fabric solution.</p>
+                    </div>
                 </div>
-                
-                    <p>Designed &amp; coded by Blair Shen &copy; 2019</p>
-            </footer>
+            </div>
+            <div class="bg_ivory">
+                <div class="projectinfo">
+                    <div class="role">
+                        <h3>Role:</h3><p>UX research and design</p>
+                    </div>
+                    <div class="time">
+                        <h3>Time:</h3><p>3 months</p>
+                        <h3>Team size:</h3><p>4</p>
+                    </div>
+                    <div class="tools">
+                        <h3>Tools:</h3><p>Pencil & Paper<br> Sketch<br> InVision<br> Survey</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills:</h3>
+                        <p>
+                            Analytical research<br>
+                            Sketching techniques<br>
+                            Wireframing and prototyping<br>
+                            UX testing
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-            <script src="js/lightbox-plus-jquery.js"></script>
-</body>
+            <div class="bg_white"> 
+                <h2>Problem Overview</h2>
+                <h3>Injury is 1% physical and 99% psychological</h3>
+                <p>For student athletes, getting injured is not only about physical influence but also psychologically and socially. Since most of an athlete’s daily schedule is team-centered, once they get injured, they miss the social interactions they would have had otherwise. Without their regular training and practice, athletes also miss the element of competition in their lives.
+                <br>The key problems we aim to solve include:
+                    <ul>
+                        <li>The isolation and the feeling of uselessness during the injured period</li>
+                        <li>The inconvenient methods of getting advice from athletes with similar experience</li>
+                        <li>The inability to understand their rehab progress</li>
+                    </ul>
+                </p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_news.png" alt="CommonWealth preface"></div>
+                </div>  
+            </div>
+
+            <div class="bg_ivory">
+                <h2>Solution at a Glance</h2>
+                <h3>A community for injured athletes to talk, meet up and share information.</h3>
+                <p>Our goal is to help injured athletes overcome the psychological issues and strengthen the social support and information they need during their rehabilitation.</p>
+
+                <div class="video">
+                    <iframe width="960" height="540" src="https://www.youtube.com/embed/JOV5UEyty8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="bg_white">
+                <h1>Design Process</h1>
+                <h2>Understand the problems: In-depth interviews</h2>
+                <div class="stats">
+                    <p class="number">2<br>Expert interviews</p>
+                    <p class="number">6<br>Athlete interviews</p>
+                </div>
+                <p>To understand the problems injured athletes encountered in an exploratory way, we held semi-structured interviews, including 2 expert interviews and 6 interviews with injured athletes.<br><br>The data we gathered in this phase informed us more about the specific problems they encountered, including</p>
+                <ul>
+                    <li>Going to physical therapy checkup is <b>time consuming</b></li>
+                    <li><b>Not seeing the recovery progress</b> sometimes leads to <b>motivation lost</b></li>
+                    <li>The feeling of being isolated and loss of identity stems from <b>the inability to participate in team activities</b> during the rehabilitation</li>
+                    <li>A sense of <b>replacement</b> and uselessness</li>
+                    <li>They wanted to <b>connect</b> with people who have similar experiences</li>
+                </ul>
+
+                <div class="project_photowrap">
+                    <div><a href="imgs/Juvo_wall.png" data-lightbox="gallery" data-title="Data analysis" aria-label="Data analysis"><img src="./imgs/Juvo_wall.png" alt="Data analysis"></a></div>
+                </div>
+            </div>
+
+            <div class="bg_ivory">
+                <h2>Fact checking - Survey</h2>
+                <p>We then conducted an online survey which served as a fact checking tool, to know how much can we generalize the findings from interviews. The survey access was limited to injured athletes only.</p>
+                <ul>
+                    <li>There were <b>96.5%</b> of the respondents who replied that the injury affected their <b>psychological well-being</b>; 92% of them reported suffering from depression and isolation during their rehabilitation</li>
+                </ul>
+                <p>Features that our users need the most (measured by a 5-point Likert scale):</p>
+                <ul>
+                    <li>A wearable device to track your recovery data and progress (mean = 4)</li>
+                    <li>Connecting them to other people with the same injury (mean = 3.9)</li>
+                    <li>Receiving instruction from physical therapist when at home (mean = 3.8)</li>
+                    <li>Turning the rehab exercise to a game (mean = 3.2)</li>
+                </ul>
+
+                <div class="stats">
+                    <p class="number">87<br>Survey responses</p>
+                </div>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_profile1.png" alt="Profile1"></a></div>
+                </div>
+                <div class="project_photowrap"></div>
+            </div>
+            <div class="bg_white">
+                <h2>User Journey</h2>
+                <p>We also drew out a user journey to find out the <b>touch points</b> and find potential solutions.</p>
+                <div class="project_photowrap">
+                    <div><a href="imgs/Juvo_journey.png" data-lightbox="gallery" data-title="User Journey" aria-label="User Journey"><img src="./imgs/Juvo_journey_thumb.png" alt="User Journey"></a></div>
+                </div>
+            </div>
+            <div class="bg_ivory">
+                <h2>Brainstorming &amp; Storyboard</h2>
+                <p>Based on our research findings, I led the brainstorming meeting with my teammates. I utilized the technique called <b>"How Might We"</b> to provoke thoughts. After everyone wrote down the "how might we" questions, each of us listed ideas and their pros and cons. We also made storyboards to see problems from the users' perspective. The final focus was to build a community for injured athletes to talk, meet up and share information.</p>
+                <div class="project_photowrap">
+                    <div><a href="imgs/Juvo_brain.png" data-lightbox="gallery" data-title="Brainstorming" aria-label="Brainstorming"><img src="./imgs/Juvo_brain.png" alt="Brainstorming"></a></div>
+                    <div><a href="imgs/Juvo_story.png" data-lightbox="gallery" data-title="Storyboard" aria-label="Storyboard"><img src="./imgs/Juvo_story.png" alt="Storyboard"></a></div>
+                </div>
+            </div>
+            <div class="bg_white">
+                <h2>Design Concept</h2>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_concept.png" alt="Concept"></div>
+                </div>
+                <p>Based on the findings from the user research phase, we made a few design decisions and focused on these features:</p>
+                <h3>Smart rehab with physical therapists’ instructions</h3>
+                <p>More than 69% of the survey respondents reported receiving instructions at home would be helpful for their rehab process. Combining the animation in the service and instructions from physical therapists, we can encourage athletes to do their rehabilitation exercise regularly.</p>
+
+                <h3>Track recovery data</h3>
+                <p>The most serious issue reported by our interviewees and survey respondents was not seeing the progress leads to motivation lost. We address this issue by using a wearable sensing fabric patch to keep a rehabilitation exercise log.</p>
+
+                <h3>Gamification - compete & cooperate</h3>
+                <p>To tackle the identity loss issue, we utilized the competitive nature of athletes to gamify the rehabilitation process. Users can compete in rehabilitation exercise against their rival school. To instill a sense of cooperation, they can form a team with injured athletes from the same school.</p>
+
+                <h3>Community building</h3>
+                <p>Our participants reported they tried to seek help from people who may have similar experiences, and to meet other injured athletes either online or offline to exchange information or get emotional support. Our design goal, therefore, was to help them connect with each other.</p>
+
+                <h3>Why mobile app?</h3>
+                <p>In order to search for and meet nearby injured athletes, the design needs to be handy and mobile. That’s why we chose to design a mobile app.</p>
+            </div>
+            <div class="bg_ivory">
+                <h2>User testing</h2>
+                <h3>Wizard of Oz</h3>
+                <p>We went through two iterations to test our design solutions. First, I created wireframes and printed it out as a paper prototype. I then invited 5 participants to test the prototype. The participants were asked to perform the following tasks, with our team members using a Wizard of Oz technique:</p>
+                <ul>
+                    <li>Attaching the sensing fabric on any of their joints or muscles, and starting the rehabilitation exercise</li>
+                    <li>Checking their daily rehabilitation progress and team scores</li>
+                    <li>Checking nearby injured athletes and inviting them to do rehabilitation exercises together</li>
+                </ul>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_ite1.png" alt="Paperprototype 1"></div>
+                </div>
+
+                <h3>Feedback gained from the wireframes</h3>
+                <ul>
+                    <li>Users pointed out that besides timer, the app should help with counting the repeats.</li>
+                    <li>Besides to know the assigned exercises, they wanted to know team scores as well.</li>
+                    <li>Besides connecting with each other, they hope there's a injured athletes community.</li>
+                    <li>The app should have progress visualization.</li>
+                    <li>They couldn't know other injured athletes' locations at a glance.</li>
+                    <li>They wanted to know what kind of sports others play.</li>
+                </ul>
+            </div>
+
+            <div class="bg_white">
+                <h2>Design refinement</h2>
+                <p>Based on the feedback, I made our second iteration. This time, participants could see the team scores, use the exercise counting, see others on a map, sports other athletes play, a forum feature, and a long-term progress visualization.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_ite2.png" alt="wireframe 2"></div>
+                </div>
+                <h3>Feedback gained from the prototype</h3>
+                <ul>
+                    <li>Participants found the team scores were not easy to understand.</li>
+                    <li>It's still hard to interpret other users' locations.</li>
+                    <li>They also wanted a feature that can help them identify problems in their rehab exercises.</li>
+                    <li>The rehab progress visualization was great, but weekly progress is not long enough to see much difference.</li>
+                </ul>
+            </div>
+
+            <div class="bg_ivory">
+                <h2>Design refinement from the mid-fi prototype</h2>
+                <p>To help them gain feedback from the community, we decided to add a recording feature. The injured athletes can share their exercises with the community and ask for suggestions. I also added a calendar view of monthly progress visualization, and another way to present users on a map.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_ite3.png" alt="wireframe 2"></div>
+                </div>
+                <h3>Feedback gained from the prototype</h3>
+                <ul>
+                    <li>Participants like the feature that they can follow the animated instructions and record themselves at the same time.</li>
+                    <li>They had no more trouble understanding the other users' location.</li>
+                    <li>Calendar visualization provided more specific information, while the line graph summarized well of the rehab progress.</li>
+                </ul>
+                <h3>Decisions</h3>
+                <ul>
+                    <li>Participants can decide whether they want to record the rehab exercise, the app would show the animation and the carema recording at the same time.</li>
+                    <li>Using a calendr to keep a daily track is useful, but a line chart should be available when users want to check their long-term progress.</li>
+                </ul>
+            </div>
+
+            <div class="bg_white">
+                <h2>Task Flow</h2>
+                <p>Before making high-fidelity prototype, I created the task flow to make sure all the steps and features were considered.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_flow.png" alt="Task Flow"></a></div>
+                </div>
+                <h2>Style Guide</h2>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_style.png" alt="Style guide"></div>
+                </div>
+            </div>
+
+            <div class="bg_ivory">
+                <h2>Final prototype</h2>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_screens.png" alt="Feature"></div>
+                </div>
+                <h3>Inspiring your peers</h3>
+                <p>We added a camera recording feature inside the app, because for users, it’s very encouraging to see other people are going through the injured period and accomplish these tasks! Users can choose to record their rehab or not, then save loaclly, or upload to the forum so they can inspire someone else, too!</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/juvo1.gif" alt="impact"></div>
+                </div>
+
+                <h3>Engaging with your non-injured teammates</h3>
+                <p>The user can invite their non-injured teammates to join the challenges as well. This helps initiate more interaction while the user is injured, and provide more chance for team bonding during rehab.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/juvo2.gif" alt="impact"></div>
+                </div>
+
+                <h3>Seeing the progress</h3>
+                <p>Through the user research, we understand that being able to see the progress between check-ups is important. The stats feature will record the data from the fabric and show the user's progress. Users can manually input data as well, providing more flexibility.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/juvo3.gif" alt="impact"></div>
+                </div>
+
+                <h3>Connecting with the community</h3>
+                <p>The “show nearby injured athletes" empowers users to connect with people who are currently in the same situation and provides the opportunity to look out for each other.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/juvo4.gif" alt="impact"></div>
+                </div>
+
+                <div class="buttons"><a href="https://www.figma.com/proto/bkbxtFdACywlI9sWZW14h8w5/AthleteJuvo?node-id=0%3A1&scaling=scale-down" target="_blank">
+                <button type="button" class="prototype_button">View Prototype</button></a>
+                </div>
+            </div>
+
+            <div class="bg_white">
+                <h2>Impact</h2>
+                <h3>Honorable Mention</h3>
+                <p>AthleteJuvo won the Honorable Mention at the UMSI ExpoSItion 2018 from 60+ teams. The design, though was not selected into the CHI student competition final round, got a lot of positive feedback from the reviewers.</p>
+                <div class="project_photowrap">
+                    <div><img src="./imgs/Juvo_impact.png" alt="impact"></div>
+                </div>
+            </div>
+
+            <div class="bg_ivory">
+                <h2>Reflection</h2>
+                <p>What we could have done better is to think how the "non-injured team members” would benefit from using the app, and how to better motivate them for using it. We could also narrow the scope more, focusing on specified injury types. Also, due to the time constraints, we could not involve the therapist over the development and evaluation process.</p>
+            </div>
+
+            </div>
+        </main>
+        <footer class="footer">
+        	<div class="icons">
+        		<a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon" aria-label="Blair's LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        		<a href="mailto:yuyshen@umich.edu" class = "footer-icon" aria-label="Blair's email"><i class="far fa-envelope"></i></a>
+        		<a href="https://medium.com/@blairshen_2615" class = "footer-icon" aria-label="Blair's medium" target="_blank"><i class="fab fa-medium-m"></i></a>
+        		<a href="https://github.com/yuyinshen719" class = "footer-icon" aria-label="Blair's github" target="_blank"><i class="fab fa-github"></i></a>
+        	</div>
+        	
+        		<p>Blair Shen &copy; 2020</p>
+        </footer>
+        
+        <script src="js/jquery-3.2.1.min.js?ckcachebust=067865fdc4afa7db7a3489eb38cfe45a"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/aos.js?ckcachebust=917b3323d0f63880e9dbd04bcd5e0a4e"></script>
+        <script src="js/main.js?ckcachebust=67db995ad848634308e538e6baa519c5"></script>
+    </body>
 </html>
