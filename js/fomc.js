@@ -8,6 +8,6 @@ var SelectSolutionView = function() {
 	$('.solution-nav-item').removeClass('active');
 	$(this).addClass('active');
 
-	var newSource = '/imgs/' + $(this).attr('data-view');
+	var newSource = 'imgs/' + $(this).attr('data-view');
 	$('.solution-iteration-view').attr('src',newSource);
 };
