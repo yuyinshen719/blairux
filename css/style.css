@@ -402,7 +402,8 @@ nav {
   .fomc .text-block h2, .fomc .text-block h3, .fomc .text-block h4 {
     margin: 3em 0 0.5em; }
   .fomc .text-block h4 {
-    font-weight: 800; }
+    font-weight: 800;
+    line-height: 3rem; }
   .fomc .text-block p {
     line-height: 1.7; }
   .fomc .text-block ul li, .fomc .text-block ol li {
