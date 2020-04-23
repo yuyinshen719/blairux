@@ -603,9 +603,9 @@ nav {
       background-size: contain;
       background-repeat: no-repeat; }
   .stat-result .stat-increase::before {
-    background-image: url("/imgs/up-arrow.svg"); }
+    background-image: url("imgs/up-arrow.svg"); }
   .stat-result .stat-decrease::before {
-    background-image: url("/imgs/down-arrow.svg"); }
+    background-image: url("imgs/down-arrow.svg"); }
 
 /* =============== PROJECTS =============== */
 .projectinfo {
