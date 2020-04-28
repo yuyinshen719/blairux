@@ -32,7 +32,7 @@ h2 {
   text-align: left;
   font-size: 2.8rem;
   color: #000b3e;
-  margin: 0.5em 0;
+  margin: 2em 0;
   display: block; }
 
 h3 {
@@ -583,7 +583,8 @@ nav {
     color: #fff;
     text-align: center; }
   .fomc .solution .solution-content {
-    margin: auto; }
+    margin: auto;
+    display: block; }
     .fomc .solution .solution-content img {
       display: block;
       margin: auto; }
