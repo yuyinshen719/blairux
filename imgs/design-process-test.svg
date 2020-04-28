@@ -34,9 +34,9 @@
                         <tspan x="0.335" y="28">Prototype</tspan>
                     </text>
                 </g>
-                <g id="Group" transform="translate(70.000000, 458.000000)" fill="#3A16EA" font-family="Lato-Bold, Lato" font-size="28" font-weight="bold">
+                <g id="Group" transform="translate(70.000000, 448.000000)" fill="#3A16EA" font-family="Lato-Bold, Lato" font-size="38" font-weight="bold">
                     <text id="Test">
-                        <tspan x="0.421" y="28">Test</tspan>
+                        <tspan x="0.421" y="38">Test</tspan>
                     </text>
                 </g>
             </g>

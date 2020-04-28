@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="560px" height="453px" viewBox="0 0 560 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="597px" height="453px" viewBox="0 0 597 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>design-process-ideation</title>
     <desc>Created with Sketch.</desc>
@@ -19,9 +19,9 @@
                     <polyline id="Path" stroke="#3195FB" stroke-linecap="round" transform="translate(22.000000, 247.000000) scale(-1, 1) rotate(-180.000000) translate(-22.000000, -247.000000) " points="0 236 22 258 44 236"></polyline>
                     <polyline id="Path" stroke="#382DED" stroke-linecap="round" transform="translate(470.500000, 247.000000) scale(-1, 1) translate(-470.500000, -247.000000) " points="448.5 236 470.5 258 492.5 236"></polyline>
                 </g>
-                <g id="Group" transform="translate(527.000000, 145.000000)" fill="#2FB5FF" font-family="Lato-Bold, Lato" font-size="28" font-weight="bold">
+                <g id="Group" transform="translate(527.000000, 135.000000)" fill="#2FB5FF" font-family="Lato-Bold, Lato" font-size="38" font-weight="bold">
                     <text id="Ideation">
-                        <tspan x="0.257" y="28">Ideation</tspan>
+                        <tspan x="0.257" y="38">Ideation</tspan>
                     </text>
                 </g>
                 <g id="Group" transform="translate(95.000000, 113.000000)" fill="#E3E3E3" font-family="Lato-Regular, Lato" font-size="28" font-weight="normal">
