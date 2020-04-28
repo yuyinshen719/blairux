@@ -44,7 +44,7 @@ h3 {
 h4, h5, h6 {
   color: #383838;
   font-weight: 400;
-  line-height: 1em;
+  line-height: 1.5em;
   margin: 0 0 1em 0; }
 
 p {
@@ -402,8 +402,7 @@ nav {
   .fomc .text-block h2, .fomc .text-block h3, .fomc .text-block h4 {
     margin: 3em 0 0.5em; }
   .fomc .text-block h4 {
-    font-weight: 800;
-    line-height: 3rem; }
+    font-weight: 800; }
   .fomc .text-block p {
     line-height: 1.7; }
   .fomc .text-block ul li, .fomc .text-block ol li {
@@ -512,6 +511,23 @@ nav {
     width: 120%;
     height: auto;
     margin-left: -10%; }
+
+.fomc .magnify-wrapper {
+  position: relative; }
+  .fomc .magnify-wrapper .magnify-focus {
+    position: absolute;
+    opacity: 0;
+    width: 600px;
+    height: 600px;
+    left: 0;
+    top: 0;
+    background-position: 0 0;
+    background-image: url("../imgs/fomc_usability-overview-zoom.png");
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: 10px solid #333;
+    box-shadow: 0 0.5em 0.75em rgba(47, 26, 90, 0.45);
+    pointer-events: none; }
 
 /* Process */
 .fomc .process {
