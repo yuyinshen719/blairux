@@ -10,8 +10,8 @@
         </linearGradient>
     </defs>
     <g id="FOMC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy" transform="translate(-2106.000000, -6895.000000)">
-            <g id="design-process-ideation-copy" transform="translate(2036.000000, 6784.000000)">
+        <g id="Desktop-HD-Copy" transform="translate(-2235.000000, -6742.000000)">
+            <g id="design-process-ideation-copy" transform="translate(2165.000000, 6631.000000)">
                 <g id="Group" transform="translate(337.499643, 337.501331) rotate(120.000000) translate(-337.499643, -337.501331) translate(90.999643, 91.001331)" stroke-width="3">
                     <circle id="Oval" stroke="url(#linearGradient-1)" cx="246.5" cy="246.5" r="224.5"></circle>
                     <polyline id="Path" stroke="#391EEB" stroke-linecap="round" transform="translate(247.000000, 471.000000) scale(-1, 1) rotate(-90.000000) translate(-247.000000, -471.000000) " points="225 460 247 482 269 460"></polyline>
@@ -34,9 +34,9 @@
                         <tspan x="0.335" y="28">Prototype</tspan>
                     </text>
                 </g>
-                <g id="Group" transform="translate(70.000000, 448.000000)" fill="#3A16EA" font-family="Lato-Bold, Lato" font-size="38" font-weight="bold">
+                <g id="Group" transform="translate(70.000000, 458.000000)" fill="#3A16EA" font-family="Lato-Bold, Lato" font-size="28" font-weight="bold">
                     <text id="Test">
-                        <tspan x="0.421" y="38">Test</tspan>
+                        <tspan x="0.421" y="28">Test</tspan>
                     </text>
                 </g>
             </g>

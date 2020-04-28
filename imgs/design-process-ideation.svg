@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="597px" height="453px" viewBox="0 0 597 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="560px" height="453px" viewBox="0 0 560 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>design-process-ideation</title>
     <desc>Created with Sketch.</desc>
@@ -10,8 +10,8 @@
         </linearGradient>
     </defs>
     <g id="FOMC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy" transform="translate(-2581.000000, -6157.000000)">
-            <g id="design-process-ideation" transform="translate(2511.000000, 6046.000000)">
+        <g id="Desktop-HD-Copy" transform="translate(-2862.000000, -6186.000000)">
+            <g id="design-process-ideation" transform="translate(2792.000000, 6075.000000)">
                 <g id="Group" transform="translate(337.499643, 337.501331) rotate(120.000000) translate(-337.499643, -337.501331) translate(90.999643, 91.001331)" stroke-width="3">
                     <circle id="Oval" stroke="url(#linearGradient-1)" cx="246.5" cy="246.5" r="224.5"></circle>
                     <polyline id="Path" stroke="#391EEB" stroke-linecap="round" transform="translate(247.000000, 471.000000) scale(-1, 1) rotate(-90.000000) translate(-247.000000, -471.000000) " points="225 460 247 482 269 460"></polyline>
@@ -19,9 +19,9 @@
                     <polyline id="Path" stroke="#3195FB" stroke-linecap="round" transform="translate(22.000000, 247.000000) scale(-1, 1) rotate(-180.000000) translate(-22.000000, -247.000000) " points="0 236 22 258 44 236"></polyline>
                     <polyline id="Path" stroke="#382DED" stroke-linecap="round" transform="translate(470.500000, 247.000000) scale(-1, 1) translate(-470.500000, -247.000000) " points="448.5 236 470.5 258 492.5 236"></polyline>
                 </g>
-                <g id="Group" transform="translate(527.000000, 135.000000)" fill="#2FB5FF" font-family="Lato-Bold, Lato" font-size="38" font-weight="bold">
+                <g id="Group" transform="translate(527.000000, 145.000000)" fill="#2FB5FF" font-family="Lato-Bold, Lato" font-size="28" font-weight="bold">
                     <text id="Ideation">
-                        <tspan x="0.257" y="38">Ideation</tspan>
+                        <tspan x="0.257" y="28">Ideation</tspan>
                     </text>
                 </g>
                 <g id="Group" transform="translate(95.000000, 113.000000)" fill="#E3E3E3" font-family="Lato-Regular, Lato" font-size="28" font-weight="normal">
