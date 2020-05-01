@@ -87,6 +87,9 @@ nav {
       color: #454545;
       text-decoration: none; }
 
+[data-active-nav-group="work"] .header-item.nav-group-work {
+  border-bottom: solid 2px #585858; }
+
 /*==================== FOOTER ====================*/
 .footer {
   position: relative;
@@ -148,7 +151,7 @@ nav {
   content: '';
   display: block;
   position: relative;
-  height: 0.25em;
+  height: 3px;
   width: 0;
   background-image: linear-gradient(90deg, #eac5ff, #4d00c8);
   transition: width 0.5s ease-out; }
@@ -394,6 +397,14 @@ nav {
   display: block;
   width: 100%; }
 
+.section-break::after {
+  content: '...';
+  display: block;
+  margin: 1em 0 2em;
+  font-size: 2em;
+  letter-spacing: 8px;
+  text-align: center; }
+
 /* Blocks of Text - Optimize for reading */
 .fomc .text-block {
   display: block;
@@ -401,19 +412,16 @@ nav {
   margin: auto; }
   .fomc .text-block h2, .fomc .text-block h3, .fomc .text-block h4 {
     margin: 3em 0 0.5em; }
-  .fomc .text-block h4 {
-    font-weight: 800; }
+  .fomc .text-block h2 + div h3 {
+    margin-top: 0; }
   .fomc .text-block p {
     line-height: 1.7; }
+  .fomc .text-block p, .fomc .text-block video {
+    margin-top: 2em; }
+  .fomc .text-block img {
+    margin: 3em 0; }
   .fomc .text-block ul li, .fomc .text-block ol li {
     margin-left: 1.5em; }
-  .fomc .text-block::after {
-    content: '...';
-    display: block;
-    margin: 1em 0 2em;
-    font-size: 2em;
-    letter-spacing: 8px;
-    text-align: center; }
 
 .fomc .banner > div {
   width: 80%;
@@ -449,6 +457,7 @@ nav {
   grid-area: summary;
   display: flex;
   flex-flow: row wrap;
+  margin: 0 auto;
   padding: 4em 0; }
   .fomc .summary .card {
     display: inline-block;
@@ -488,7 +497,8 @@ nav {
 
 /* Statment */
 .fomc .statement {
-  grid-area: statement; }
+  grid-area: statement;
+  margin-bottom: 6em; }
   .fomc .statement .solution-nav {
     display: flex;
     width: 100%;
@@ -508,9 +518,8 @@ nav {
         color: #0f62fe;
         border-bottom: 2px solid #0f62fe; }
   .fomc .statement .solution-iteration-view {
-    width: 120%;
-    height: auto;
-    margin-left: -10%; }
+    width: 100%;
+    height: auto; }
 
 .fomc .magnify-wrapper {
   position: relative; }
@@ -597,8 +606,7 @@ nav {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 2em;
-    width: 120%;
-    margin-left: -10%;
+    width: 100%;
     background-color: #f2f4f8; }
 
 /* ==================================================== */
@@ -898,8 +906,6 @@ input[type=submit] {
 @media only screen and (min-width: 768px) {
   nav ul li {
     display: inline; }
-  .header-item {
-    border-bottom: solid 2px #585858; }
   .header-logo {
     margin: 1em; }
   main {
@@ -917,7 +923,7 @@ input[type=submit] {
   nav {
     margin: 1.0em 0 0 0; }
     nav li:first-child .header-item {
-      border-top: solid 2px #22181c; }
+      border-top: solid 2px transparent; }
   .header-item {
     border-bottom: solid 2px #22181c;
     width: 100%;
