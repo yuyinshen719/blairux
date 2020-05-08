@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="72px" viewBox="0 0 48 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Figma-logo</title>
+    <g id="Shard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Figma-logo" fill-rule="nonzero">
+            <path d="M12,72 C18.624,72 24,66.624 24,60 L24,48 L12,48 C5.376,48 0,53.376 0,60 C0,66.624 5.376,72 12,72 Z" id="path0_fill" fill="#0ACF83"></path>
+            <path d="M0,36 C0,29.376 5.376,24 12,24 L24,24 L24,48 L12,48 C5.376,48 0,42.624 0,36 Z" id="path1_fill" fill="#A259FF"></path>
+            <path d="M0,12 C0,5.376 5.376,0 12,0 L24,0 L24,24 L12,24 C5.376,24 0,18.624 0,12 Z" id="path1_fill_1_" fill="#F24E1E"></path>
+            <path d="M24,0 L36,0 C42.624,0 48,5.376 48,12 C48,18.624 42.624,24 36,24 L24,24 L24,0 Z" id="path2_fill" fill="#FF7262"></path>
+            <path d="M48,36 C48,42.624 42.624,48 36,48 C29.376,48 24,42.624 24,36 C24,29.376 29.376,24 36,24 C42.624,24 48,29.376 48,36 Z" id="path3_fill" fill="#1ABCFE"></path>
+        </g>
+    </g>
+</svg>
