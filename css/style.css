@@ -50,12 +50,18 @@ h4, h5, h6 {
 p {
   margin: 0 0 1em 0; }
 
+/*.project_name, .description{
+  text-align: left;
+  margin-left: 2em;
+  margin-right: 2em;
+}*/
+
 a {
   text-decoration: none;
   font-weight: 600;
   color: #4192BC; }
   a:hover {
-    color: #db504a; }
+    color: #ff6f59; }
 
 b {
   color: #ff6f59; }
@@ -71,7 +77,6 @@ header {
     display: inline-block; }
     header .header-item:hover {
       border-bottom: solid 2px #ff6f59;
-      box-shadow: 0 13px 10px -9px rgba(255, 111, 89, 0.3);
       color: #ff6f59; }
 
 nav {
@@ -93,7 +98,7 @@ nav {
 /*==================== FOOTER ====================*/
 .footer {
   position: relative;
-  background: #db504a;
+  background: #ff6f59;
   margin-top: 5em;
   padding: 1em 10%;
   text-align: center; }
@@ -175,7 +180,9 @@ nav {
 
 /* ---------------------- HOME HOVER ---------------------------*/
 .mix-overlay {
-  background: rgba(14, 9, 11, 0.5);
+  z-index: 1;
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  /*background: rgba(14, 9, 11, 0.5);*/
   position: absolute;
   height: 99%;
   width: 100%;
@@ -189,9 +196,10 @@ nav {
   transition: all 0.4s ease-in-out 0s;
   border-radius: 2em; }
   .mix:hover .mix-overlay {
-    opacity: 1; }
+    opacity: 0.9; }
 
 .mix-details {
+  z-index: 2;
   position: absolute;
   text-align: center;
   padding-left: 1em;
@@ -214,10 +222,12 @@ nav {
   .mix-details h3 {
     color: #fff;
     font-weight: 500;
+    font-size: 24px;;
     letter-spacing: 0.15em;
     margin-bottom: 0.5em;
     text-transform: uppercase;
-    text-align: left; }
+    text-align: left; 
+  }
   .mix-details p {
     color: #fff;
     text-align: left; }
@@ -226,6 +236,18 @@ nav {
   top: 20%; }
 
 /* ---------------------- MIX IT UP-------------------------- */
+.project_detail{
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+}
+
+.project_detail h3, .project_detail p{
+  color: #ababab;
+}
+
 .mix,
 .gap {
   display: inline-block;
@@ -283,7 +305,7 @@ nav {
   color: #3f3f3f; }
 
 .txt-type {
-  color: #ff6f59; }
+  color: #50A7C2;}
 
 .card_title h2 {
   text-align: center;
