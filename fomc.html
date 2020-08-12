@@ -70,24 +70,26 @@
 			<section class="summary">
 				<div class="quick-summary card" data-aos="fade-up">
 					<h3>Bite-size Summary</h3>
-					<p>The conversion rate of Harry & David Fruit of the Month Club was suffering. I got the opportunity to examine usability issues and re-design the interface to make it more modern and intuitive.</p>
+					<p>Design a new purchasing experience for the fruit club customers and their gift recipients. A longstanding service shouldn't mean an outdated interface.<br><br> I identified usability roadblocks and conducted usability tests via rapid prototyping to inform the design decisions; designed and delivered the interactions; and oversaw the implementation.</p>
 				</div>
 
 				<div class="contribution card" data-aos="fade-up" data-aos-anchor=".summary" data-aos-offset="300">
-					<h3>My Contribution</h3>
-					<p>Conducted usability tests, re-designed and shipped the product page. The new design increased upsell purchase by 17.09% and revenue by 14.11%.</p>
-					<div class="stat-result">
-						<div class="label">Upsell Purchase</div>
-						<div class="stat-increase">
-							17.09%
+					<h3>Result</h3>
+					<p style="font-style: italic; color: #525252;">"The experience was flawless. It was really straightforward and to the point."
+						- Club Research Participant</p>
+
+						<div class="stat-result">
+							<div class="label">Upsell Purchase</div>
+							<div class="stat-increase">
+								17.09%
+							</div>
 						</div>
-					</div>
-					<div class="stat-result">
-						<div class="label">Revenue</div>
-						<div class="stat-increase">
-							14.11%
+						<div class="stat-result">
+							<div class="label">Revenue</div>
+							<div class="stat-increase">
+								14.11%
+							</div>
 						</div>
-					</div>
 				</div>
 			</section>
 
@@ -122,12 +124,15 @@
 			
 			<section class="statement text-block">
 				<div class="problem-space section-break">
-					<h2>Problem Space</h2>
-					<p>The conversion rate of Harry & David Fruit of the Month Club was going down. How can we re-think the interface and improve its usability and conversion rate?</p>
+					<h2 >Challenge</h2>
+					<h3>How might we improve the discoverability of the product information while maintaining a relatable experience for catalog customers?</h3>
+					<p>Fruit club products have been one of the most popular gifting options for older adults or their loved ones to enjoy fresh, in-season fruits since 1936. However, the website interface was built a decade ago based on the catalog experience. How might we improve the usability of the site and discoverability of the product information while making the experience more digital native friendly while keeping it relatable for our existing senior customers?</p>
 				</div>
 
 				<div class="solutions">
-					<h2>Solution at a Glance</h2>
+					<h2 >Solution at a Glance</h2>
+					<h3>Focus on feedback, accessibility, and prioritizing product information</h3>
+					<p>The old site experience was based upon a catalog layout; long columns with every bit of information on the same page. The redesign focuses on prioritizing information, increasing accessibility, and providing immediate feedback after any interaction, to speak to our senior catalog customers while attracting younger demographics by eliminating the print-based layout.</p>
 					<div class="solution-list">
 						<ul class="solution-nav">
 							<li class="solution-nav-item" data-view="fomc_solution_original.png">Original</li>
@@ -162,108 +167,68 @@
 					<span data-aos="hide-fade" data-aos-anchor=".ideation" data-aos-anchor-placement="top-center">
 						<div class="breakdown-floater" data-aos="fade-right" data-aos-anchor=".process" data-aos-anchor-placement="center-top"></div>
 					</span>
-					<h2>Research</h2>
+					<h2 >Research</h2>
 					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							Who is my customer?
+						<h3 >
+							Understand the problem with a mindful eye for budget and resources
 						</h3>
 						<p>
-							To have a clearer understanding of who I’m designing for, I gathered the club buyer data from merchandise analysts. Club buyers tend to be high income, single-family baby boomers, and more likely to be females (when compared to other H&D customer profiles). This customer profile data allows me to target the right audience in the next stage.
+							As the solo designer and researcher with the limited resources the company could provide, I conducted competitor analysis, secondary research, and remote usability testing to understand the market, customers, and usability opportunities.
 						</p>
+						<img src="imgs/FOMC_karen.png" alt="persona">
+						<img src="imgs/FOMC_stats.png" alt="stats">
 					</div>
+				</section>
+
+					<h2 >Opportunity</h2>
 					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							What are the current issues?
-						</h3>
+						<h3>Improve the information discoverability, iconography, and micro UX copy</h3>
 						<video width="1152" src="imgs/fomc_test.mp4" controls autoplay muted></video>
 						<p>
 							Based on the customer profile, I designed a series of usability tasks and recruited representative users from UserTesting.com. A few major issues include:
 						</p>
 						<ol>
 							<li>
-								<h4>Functionality Defects</h4>
 								<ul>
-									<li>Users thought the text description of each month was clickable while in reality it wasn’t.</li>
-									<li>Users tried to close the pop-up dialog by clicking elsewhere on the page.</li>
+									<li>The relationship of price, starting month, and Club length is unclear.</li>
+									<li>The scannability of prices needs to be improved.</li>
+									<li>The interaction lacks feedback to inform the customer of current selection status.</li>
 								</ul>
 							</li>
 							<li>
-								<h4>Price, length, and upsell usability problems</h4>
 								<ul>
-									<li>Users didn’t realize they need to select the starting month every time they change the club length.</li>
-									<li>Users were not sure why the page showed both a specific price as well as a price range.</li>
-									<li>The price was too far away from the length selection and they didn’t notice when the price changed based on the length of the subscription.</li>
-									<li>The upsell section was confusing as users couldn’t see the product name before selecting the checkbox.</li>
-									<li>The price tags were difficult to notice simply by scanning. Users didn’t notice the product description would change based on their club selection.</li>
-								</ul>
-							</li>
-							<li>
-								<h4>Misunderstanding of the wording & icons</h4>
-								<ul>
-									<li>The upsell instruction was confusing - users often mistook it for an add-on item rather than an upgrade of the first month shipment.</li>
-									<li>The word “required” above the club length drop down made users think 12-month subscription was required.</li>
-									<li>Users were not sure how many fruits they’d get for each month. They thought the magnifying glass icon was solely for zooming in on photos while in reality it provided extra product information.</li>
+									<li>The concepts of upsells and add-ons need to be delivered clearly.</li>
+									<li>The discoverability of upsell product information needs to be increased.</li>
+									<li>The upsell copy was mistaken as add-ons.</li>
 								</ul>
 							</li>
 						</ol>
 					</div>
+					
+					<h2 >Rapid prototyping</h2>
 					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							What did I find out?
-						</h3>
-						<div class="magnify-wrapper">
-							<div class="magnify-focus"></div>
-							<img class="magnify-image" src="imgs/fomc_usability-overview.png" alt="Page Usability Problem Overview">
-						</div>
-					</div>
-				</section>
-
-				<section class="ideation">
-					<span data-aos="hide-fade" data-aos-anchor=".prototype" data-aos-anchor-placement="top-center">
-						<div class="breakdown-floater" data-aos="fade" data-aos-anchor=".ideation" data-aos-anchor-placement="top-center"></div>
-					</span>
-					<h2>Ideation</h2>
-					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							What are my goals?
-						</h3>
-						<ol class="goal-list">
-							<li>Find an intuitive way to present the relationship between price points and club lengths.</li>
-							<li>Reduce the need to scroll up and down the page to see the product for each month.</li>
-							<li>Make the upsell information more transparent and easy to understand.</li>
-							<li>The page layout should work well on mobile with minimum UI change.</li>
-							<li>Make the page modern and clean.</li>
-						</ol>
-					</div>
-					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							How can I make it happen?
-						</h3>
-						<h4>Design Rationale - Product Page Wireframe</h4>
+						<h3>From low-fi to hi-fi, every interaction is supported by research based rationales</h3>
+						<h4>Product Page Wireframe</h4>
 						<div class="project_photowrap">
 							<div><a href="imgs/fomc_ideation-product-page@2x.png" data-lightbox="gallery" data-title="Wireframe - Product page" aria-label="Product page"><img src="./imgs/fomc_ideation-product-page.png" alt="Product page"></a></div>
 						</div>
-						<h4>Design Rationale - Product Alt Images Wireframe</h4>
+						<h4>Product Alt Images Wireframe</h4>
 						<div class="project_photowrap">
 							<div><a href="imgs/fomc_ideation-image-gallery@2x.png" data-lightbox="gallery" data-title="Wireframe - Product alt images" aria-label="Wireframe - Product alt images"><img src="./imgs/fomc_ideation-image-gallery.png" alt="Wireframe - Product alt images"></a></div>
 						</div>
-						<h4>Design Rationale - Product Upsell Wireframe</h4>
+						<h4>Product Upsell Wireframe</h4>
 						<div class="project_photowrap">
 							<div><a href="imgs/fomc_ideation-upsell@2x.png" data-lightbox="gallery" data-title="Wireframe - Upsell interaction" aria-label="Wireframe - Upsell interaction"><img src="./imgs/fomc_ideation-upsell.png" alt="Wireframe - Upsell interaction"></a></div>
 						</div>
 					</div>
-				</section>
 
 				<section class="prototype">
 					<span data-aos="hide-fade" data-aos-anchor=".test" data-aos-anchor-placement="top-center">
 						<div class="breakdown-floater" data-aos="fade" data-aos-anchor=".prototype" data-aos-anchor-placement="top-center"></div>
 					</span>
-					<h2>Prototype</h2>
+					<h2 >Prototype</h2>
 					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							How would it actually look and feel?
-						</h3>
-						<p>Using the wireframes as a starting point, I created a high-fidelity, interactive prototype.</p>
+						<p>Using the wireframes as a starting point, I created a high-fidelity, interactive prototype for user testing.</p>
 						<video width="1152" src="imgs/fomc_hifi.mp4" controls autoplay muted></video>
 					</div>
 				</section>
@@ -272,44 +237,57 @@
 					<span data-aos="hide-fade" data-aos-anchor=".solution" data-aos-anchor-placement="top-center">
 						<div class="breakdown-floater" data-aos="fade" data-aos-anchor=".test" data-aos-anchor-placement="top-center"></div>
 					</span>
-					<h2>Test</h2>
+					<h2 >Design iteration 1</h2>
 					<div class="step-block section-break">
-						<h3 data-aos="text-underline">
-							Are the interactions intuitive?
+						<h3>
+							Look before you leap - Can our older clientele understand the button-like UI design?
 						</h3>
-						<p>Before I began testing, I made multiple variations within the prototype to test specific interactions.</p>
-						<h4>Experiment 1:
-							Do our customers react better to a touch-friendly, button UI or a traditional dropdown?
+						<p>The new experience aims to be responsive thus a more touch-device friendly selector pattern is adopted. I conducted a few rounds of tests to examine the following hypotheses:</p>
+						<h4>H1:
+							Customers will be able to understand how to change the starting month.
 						</h4>
-						<p>I wanted to update the design to something that felt more clean and modern while also being more mobile-friendly. It looked nice but it was a less familiar UI and I had to be sure it would work for my users. Thankfully, the initial tests showed that users appreciated the interaction.</p>
+						<h4>H2:
+							Customers will find the new starting month design convenient because it shows the product availability before a club length option is made.
+						</h4>
 						<img src="imgs/fomc_experiment-1.png" alt="Circles vs Dropdown Comparison">
-						<h4>Experiment 2:
-							Would reflecting the selected length/date on the photo thumbnail be helpful?
+						<h3>Result</h3>
+						<p>10 out of 10 test participants could understand the new interaction immediately, and more than half preferred the button UI because it made the starting month availability obvious.</p>
+						
+					</div>
+					<div class="step-block">
+						<h2 >Design iteration 2</h2>
+						<h3>
+							Evolve with user feedback - How do we provide more information about club length?
+						</h3>
+						<p>The old experience didn't provide much feedback on the selected club length and period. Would our users notice the feedback provided with a photo snipe on the new experience?</p>
+						<h4>H1:
+							Customers will notice the information about the selected length/date on the photo.
 						</h4>
-						<p>To reduce scrolling for detailed information, some data was tucked away behind a click. The question for me was whether users would notice and feel comfortable with a small piece of key information regarding the length of the club purchase rather than a general information button.</p>
+						<h4>H2:
+							Customers will find the information helpful.
+						</h4>
+						<h3>Result</h3>
+						<p>Users immediately noticed the information provided on the photo and found it useful.</p>
 						<div class="project_photowrap">
 							<div><a href="imgs/fomc_experiment-2@2x.png" data-lightbox="gallery" data-title="Image snipe feedback" aria-label="Image snipe feedback"><img src="./imgs/fomc_experiment-2.png" alt="Image snipe feedback"></a></div>
 						</div>
 					</div>
+					
 					<div class="step-block">
-						<h3 data-aos="text-underline">
-							What brings the most business value?
+						<h2 >Design iteration 3</h2>
+						<h3>
+							Balance business goals and user needs
 						</h3>
-						<h4>Experiment 1:
-							How can we promote the best value call out &amp; price order?
+						<p>As a promotion-focused company, our customers rely heavily on coupons and seasonal discounts. Therefore, highlighting those offers is essential for the marketing team.</p>
+						<h4>H1:
+							By calling out the "best value" club, we will get more orders for the 12 month club product.
 						</h4>
-						<p>As a promotion-focused company, our customers rely heavily on coupons and seasonal discounts. Hence highlighting those offers is essential for the product page.</p>
-						<img src="imgs/fomc_best-value-1.png" alt="First Iteration of Club Length">
-						<p>After A/B testing, we learned that sorting the price range from high to low helps boost the Average Order Value. However, the red call out made some customers think the best value option is pre-selected.</p>
-						<img src="imgs/fomc_best-value-2.png" alt="Second Iteration of Club Length">
-						<p>I fine-tuned the best value call out to align with customer expectations by making the option pre-selected and filling the background using our branded black to distinguish from other options.</p>
-						<img src="imgs/fomc_best-value-3.png" alt="Final Iteration of Club Length">
-
-						<h4>Experiment 2:
-							How can we maximize coupon conversions?
+						<h4>H2:
+							By sorting the price range from high to low, the average order value per customer will increase.
 						</h4>
-						<p>After A/B testing for awhile, we realized customers didn’t use coupons as much on the new design. In response, I altered the coupon placement to sit above the Add To Cart button and while changing the background color of the panel to make the coupon message "pop". Conversion rate and coupon usage increased significantly after the adjustment.</p>
-						<img src="imgs/fomc_coupon.png" alt="Iteration of Coupon Code">
+						<h3>Result</h3>
+						<p>The treatment significantly boosted the order value and the sales.</p>
+					<img src="imgs/fomc_best-value-3.png" alt="Final Iteration of Club Length">
 					</div>
 				</section>
 			</section>
@@ -322,7 +300,10 @@
 			</section>
 
 			<section class="conclusion text-block">
-				<h2>Results</h2>
+				<h2 >Result</h2>
+				<h3 style="font-style: italic;">"The experience was flawless.
+					It was really straightforward and to the point."</h3>
+					<p>The new design increased upsell purchase by 17.09% and revenue by 14.11% (about $ 1 million more than the old experience over a 4 month test.) Besides quantitative uplift, customers have been given positive feedback, which also reflects on their purchase behaviors.</p>
 				<div class="stat-bar">
 					<div class="stat-result">
 						<div class="label">Upsell Purchase</div>
@@ -343,12 +324,12 @@
 						</div>
 					</div>
 				</div>
-				<!--<video src="" alt="Positive Feedback Video"></video>-->
+				<!--<video src="" alt="Positive Feedback Video"></video>
 				<h2>What I Learned</h2>
 				<p>
 					Even a tiny visual change matters in e-commerce
 					B2C E-commerce has its unique UX practices where not only do we need to focus on perfect user flows but final visual details are just as critical. Of course, all of the assessments took place within a fickle market and customer behavior varied significantly from day to day. H&D’s customer demographics also lean heavily towards older adults which brings a unique set of challenges and considerations. I needed to balance business needs while advocating for the users and measuring against a fluid backdrop. It was definitely a rewarding experience and helped lay down a solid foundation for my later projects at H&D.
-				</p>
+				</p>-->
 			</section>
 		</main>
 		<footer class="footer">
