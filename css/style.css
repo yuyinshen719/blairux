@@ -964,11 +964,13 @@ nav {
     text-align: center; }
 
 video {
-  max-width: 100%; }
+  max-width: 50%;
+  min-width: 400px;
+}
 
 .bg_white,
 .bg_ivory {
-  padding: 3em 20%; }
+  padding: 3em 0; }
 
 .project_content {
   text-align: left;
@@ -1058,7 +1060,7 @@ video {
   justify-content: space-around;
   padding: 2em 0;
   text-align: left;
-  margin: 1rem auto; }
+  margin: 8rem auto; }
 
 .card {
   font-size: 1.8rem;
@@ -1073,15 +1075,36 @@ video {
   min-width: 300px;
   max-width: 600px;
   border-radius: 10px; }
-  .card p {
-    padding: 0 2em;
-    text-align: left; }
-  .card h4 {
-    text-align: center; }
-  .card img {
-    width: 20%;
-    height: auto;
-    margin: 1em 0; }
+
+.card p {
+  padding: 0 2em;
+  text-align: left; }
+
+.card h4 {
+  text-align: center; }
+
+.card img {
+  width: 20%;
+  height: auto;
+  margin: 1em 0; }
+
+.YT .card img {
+  width: 100%;
+  height: auto;
+  margin: 1em 0; }
+
+.card_title p{
+  width: 50%;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.talks {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 /*==================== FORM ====================*/
 .contact {
@@ -1093,7 +1116,7 @@ video {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding: 5em 2em 2em 2em; }
+  padding: 5em 2em 0 2em; }
 
 .contact_image {
   margin: auto 0; }
