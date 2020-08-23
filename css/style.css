@@ -968,6 +968,11 @@ video {
   min-width: 400px;
 }
 
+.production{
+  max-width: 100%;
+  margin: auto;
+}
+
 .bg_white,
 .bg_ivory {
   padding: 3em 0; }
