@@ -729,8 +729,8 @@ nav {
     line-height: 1.3;
     font-weight: lighter; }
   .shard .hero img {
-    max-width: 50%;
-    margin-top: -2em; }
+    width: 100%;
+    margin-top: -29em; }
   .shard .hero.banner {
     padding: 0; }
     .shard .hero.banner video {
@@ -964,6 +964,11 @@ nav {
     text-align: center; }
 
 video {
+  max-width: 100%;
+  min-width: 400px;
+}
+
+.TalkVideo{
   max-width: 50%;
   min-width: 400px;
 }
