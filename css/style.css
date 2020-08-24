@@ -401,7 +401,28 @@ nav {
   from {
     stroke-dashoffset: 1000; }
   to {
-    stroke-dashoffset: 0; } }
+	stroke-dashoffset: 0; } }
+	
+
+/*----------------------- Staggered Media/Text Content -------------------------*/
+.stagger-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2em;
+	margin-bottom: 12em;
+}
+.stagger-row-reverse {
+	flex-direction: row-reverse;
+}
+.stagger-row .media-content {
+	flex-grow: 1;
+	flex-basis: 45%;
+}
+.stagger-row .text-block {
+	flex-grow: 1;
+	flex-basis: 45%;
+}
 
 /* Fruit of the Month Club */
 .fomc {
@@ -655,12 +676,22 @@ nav {
   .stat-result .stat-decrease::before {
     background-image: url("../imgs/down-arrow.svg"); }
 
-/* Fruit of the Month Club */
+/* ==================================================== */
+/* Shard */
 .shard {
   display: grid;
   grid-template-columns: minmax(10%, auto) minmax(auto, 990px) minmax(auto, 990px) minmax(10%, auto);
   grid-gap: auto;
-  grid-template-areas: "hero hero hero hero" "... summary summary ..." "info info info info" "... statement statement ..." "process process process process" "... breakdown breakdown ..." "solution solution solution solution" "... conclusion conclusion ..."; }
+  grid-template-areas: 
+  	"hero hero hero hero" 
+	"... summary summary ..."
+	"info info info info"
+	"... statement statement ..."
+	"... breakdown breakdown ..."
+	"solution solution solution solution"
+	"conclusion conclusion conclusion conclusion";
+	width: 100%;
+}
   .shard h1 {
     color: #436; }
   .shard h2, .shard h3 {
@@ -818,93 +849,46 @@ nav {
     width: 100%;
     height: auto; }
 
-.shard .magnify-wrapper {
-  position: relative; }
-  .shard .magnify-wrapper .magnify-focus {
-    position: absolute;
-    opacity: 0;
-    width: 600px;
-    height: 600px;
-    left: 0;
-    top: 0;
-    background-position: 0 0;
-    background-image: url("../imgs/shard_affinity wall2@2x.png");
-    background-repeat: no-repeat;
-    border-radius: 100%;
-    border: 10px solid #333;
-    box-shadow: 0 0.5em 0.75em rgba(47, 26, 90, 0.45);
-    pointer-events: none; }
-
-/* Process */
-.shard .process {
-  grid-area: process;
-  min-height: 500px; }
-  .shard .process h2 {
-    position: relative;
-    left: -9em;
-    margin-bottom: 2em;
-    color: #fff;
-    text-align: center; }
-  .shard .process.banner {
-    background: #0e0716; }
-  .shard .process .process-diagram {
-    position: relative;
-    width: 50%;
-    margin: auto; }
-    .shard .process .process-diagram img {
-      display: block;
-      width: 100%;
-      min-width: 300px;
-      max-width: 600px;
-      margin: auto; }
-
 /* Breakdown */
 .shard .breakdown {
   grid-area: breakdown; }
   .shard .breakdown h3 {
     display: inline-block; }
-  .shard .breakdown .breakdown-floater {
-    position: fixed;
-    top: 10em;
-    left: 5%;
-    width: 18%;
-    max-width: 250px;
-    height: 50vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../imgs/design-process-research.svg"); }
-  .shard .breakdown .ideation .breakdown-floater {
-    background-image: url("../imgs/design-process-ideation.svg"); }
-  .shard .breakdown .prototype .breakdown-floater {
-    background-image: url("../imgs/design-process-prototype.svg"); }
-  .shard .breakdown .test .breakdown-floater {
-    background-image: url("../imgs/design-process-test.svg"); }
 
 /* Solution */
 .shard .solution {
-  grid-area: solution; }
-  .shard .solution.banner {
-    background: #0e0716; }
-  .shard .solution h2 {
-    color: #fff;
-    text-align: center; }
-  .shard .solution .solution-content {
-    margin: auto;
-    display: block; }
-    .shard .solution .solution-content img {
-      display: block;
-      margin: auto; }
+	grid-area: solution;
+	width: 70%;
+	margin: 0 auto;
+}
+	
+.shard .solution h2 {
+	text-align: center;
+}
 
 /* Conclusion */
 .shard .conclusion {
-  grid-area: conclusion; }
-  .shard .conclusion .stat-bar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 2em;
-    width: 100%;
-    background-color: #f2f4f8; }
+	grid-area: conclusion; 
+}
+.shard .conclusion.banner {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 2em;
+	width: 100%;
+	background-color: #0e0716;
+	text-align: center;
+	color: #FFF;
+}
+
+.shard .conclusion.banner h2 {
+	color: #FFF;
+	text-align: center;
+}
+
+.shard .conclusion .content {
+	padding-top: 0;
+}
 
 /* ==================================================== */
 /* Stat Result Utility */
