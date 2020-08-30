@@ -305,7 +305,7 @@ nav {
   color: #3f3f3f; }
 
 .txt-type {
-  color: #50A7C2;}
+  color: #ff6f59;}
 
 .card_title h2 {
   text-align: center;
@@ -1219,7 +1219,13 @@ input[type=submit] {
     height: auto; }
   iframe {
     width: 512px;
-    height: 288px; } }
+    height: 288px; }
+  
+  .fomc .text-block{
+    width: 100%;
+  }
+  
+  }
 
 @media only screen and (min-width: 768px) {
   nav ul li {
@@ -1275,7 +1281,10 @@ input[type=submit] {
     margin-right: auto;
     border-radius: 100%;
     width: 70%;
-    margin: 0 auto 2em auto; } }
+    margin: 0 auto 2em auto; }
+  
+  }
+
 
 @media only screen and (max-width: 600px) {
   .project_content {
@@ -1296,7 +1305,7 @@ input[type=submit] {
     align-items: center;
     justify-content: center; }
   .button {
-    max-width: 50%; }
+    max-width: 100%; }
   .footer p {
     font-size: 0.9em; }
   .mix img {
@@ -1313,6 +1322,10 @@ input[type=submit] {
     display: block;
     position: relative;
     text-align: center; }
+
+  .card_title p{
+    width: 90%;
+  }
   .greeting img {
     width: 80%;
     height: 80%; }
@@ -1324,4 +1337,24 @@ input[type=submit] {
     width: 90%; }
   iframe {
     width: 368px;
-    height: 207px; } }
+    height: 207px; }
+  
+.fomc .projectinfo .tools img{
+  margin-right: 0;
+  display: flex;
+  }
+
+.shard{
+  display: block;
+}
+
+.contact_flex{
+  display: block;
+  padding: 0;
+}
+
+.card_wrap{
+  width: 80%;
+}
+  
+}
