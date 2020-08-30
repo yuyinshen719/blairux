@@ -964,7 +964,11 @@ video {
 
 .bg_white,
 .bg_ivory {
-  padding: 3em 0; }
+  padding: 3em 20%; }
+
+.bg_ivory_talk{
+  padding: 3em 0; 
+}
 
 .project_content {
   text-align: left;
