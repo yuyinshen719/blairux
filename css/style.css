@@ -1058,7 +1058,9 @@ video {
   justify-content: space-around;
   padding: 2em 0;
   text-align: left;
-  margin: 8rem auto; }
+  margin: 8rem auto; 
+  width: 100%;
+}
 
 .card {
   font-size: 1.8rem;
