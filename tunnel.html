@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html id = "base" lang="en">
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hello! Welcome to Blair Shen's portfolio. I'm a UX designer with a Master's degree in HCI from the University of Michigan.">
+	<meta name="keywords" content="Blair, Shen, Yu-Yin, Barnett, Portfolio, UX Reseacher, Senior, UX Designer, Design, Product, UI">
+	<meta name="author" content="Blair Shen">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+	<!-- Icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+	<link rel="manifest" href="imgs/site.webmanifest">
+	<link rel="mask-icon" href="imgs/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="/manifest.json?ckcachebust=252fc8908f61a93bd43ec4541e2e241b">
+	<title >Blair Shen | Cloudflare Tunnels Dashboard Interface</title>
+</head>
+
+	<body data-active-nav-group="work">
+
+	<header class="header">
+	    <div class="header-logo">
+	         <a href="index.html">
+	            <img src="imgs/logo.svg" alt="Blair Shen's page logo"/>
+	        </a>
+	    </div>
+	
+	    <nav class="header-nav">
+	        <ul>
+	            <li><a href = "index.html#home_h1" ><div class="header-item nav-group-work">Projects</div></a></li>
+				<li><a href = "graphic.html" ><div class="header-item nav-group-playground">UI Playground</div></a></li>
+				<li><a href = "about.html" ><div class="header-item nav-group-about">About</div></a></li>
+				<li><a href = "imgs/Blair Shen - Resume.pdf" target="_blank"><div class="header-item nav-group-resume">Resume</div></a></li>
+	         </ul>
+	        
+	    </nav>
+	</header>
+		<main class="tunnel">
+
+			<section class="hero banner">
+				<div class="hero-content">
+					<h1>
+						Cloudflare Tunnels Dashboard Interface
+					</h1>
+					<img src="imgs/Tunnel_Hero.png" alt="project hero"/>
+				</div>
+			</section>
+
+			<section class="summary">
+				<div class="quick-summary card" data-aos="fade-up">
+					<h3>Bite-size Summary</h3>
+					<p>Design a complementary dashboard interface for the existing tunnel command line interface.
+
+                        <br><br>I distilled complex tunnel technologies and transformed the tunnel creation steps into a simple and elegant interface; designed and delivered the 0 to 1 tunnel GUI experience.</p>
+				</div>
+
+				<div class="contribution card" data-aos="fade-up" data-aos-anchor=".summary" data-aos-offset="300">
+					<h3>Result</h3>
+                    <p style="font-style: italic; color: #525252;">"I absolutely love it! It’s so easy to see all the important info in one place!" <br>
+                    "This is amazing"</p>
+
+						<div class="stat-result">
+							<div class="label">Task efficiency</div>
+							<div class="stat-increase">
+								5x of task efficiency
+							</div>
+						</div>
+				</div>
+			</section>
+
+			<!--<section class="projectinfo banner">
+				<div class="projectinfo-content">
+					<div>
+						<div class="role">
+							<h3>Role:</h3>
+							<p>UX research &amp; design</p>
+						</div>
+						<div class="time">
+							<h3>Time:</h3><p>2 months</p>
+						</div>
+					</div>
+					<div class="skills">
+						<h3>Skills:</h3>
+						<ul>
+							<li>Remote usability testing</li>
+							<li>Wireframing</li>
+							<li>Prototyping</li>
+							<li>A/B testing</li>
+						</ul>
+					</div>
+					<div class="tools">
+						<h3>Tools:</h3>
+						<img src="imgs/sketch-logo.png" alt="Sketch" class="tool-logo">
+						<img src="imgs/axure-logo.png" alt="Axure" class="tool-logo">
+						<img src="imgs/usertesting-logo.png" alt="Usertesting.com" class="tool-logo">
+					</div>
+				</div>
+			</section>
+            -->
+			<section class="statement text-block">
+				<div class="problem-space section-break">
+					<h2 >A 15 second commercial on Tunnels </h2>
+					<p>Cloudflare Tunnel is a private connection between your web server and Cloudflare.  You can think of CloudflareTunnel as a virtual P.O. box. It lets someone send you packets without knowing your real address. In other words, it’s a private link. Only Cloudflare can see the server and communicate with it, and for the rest of the internet, it’s unroutable, as if the server is not even there.
+                        <br><br>With Tunnel, your origin server no longer needs to allow any incoming traffic. In fact, it doesn’t even need a publicly reachable IP address. This is significant because that means that no one can simply bypass Cloudflare to reach your resource either.</p>
+				</div>
+
+				<div class="solutions section-break">
+					<h2 >User pain points</h2>
+					<h3>Admins have no complementary dashboard UI to understand key tunnel metrics.</h3>
+					<p>Instead, users have to use the cloudflared command line interface tool to obtain any diagnostic or telemetry on their tunnels.</p>
+                    <p style="font-style: italic; color: #525252;">
+                        - "I manage too many tunnels to do this through the cfd CLI tool" <br>
+                        - "How can I get a high-level view of all my tunnels at once?" <br>
+                        - "How can I see how many Tunnels I have active?" <br>
+                        - "How can I tell if one of my Tunnels is down?" <br>
+                    </p>
+                    <p>As you can see, for users who have several tunnels, checking on their tunnel connections from a command line interface simply became impossible.</p>
+                    <div class="project_photowrap">
+                        <div><a href="imgs/Tunnel_CLI@2x.png" data-lightbox="gallery" data-title="Tunnel CLI"><img src="./imgs/Tunnel_CLI.png"></a></div>
+                    </div>
+				</div>
+			</section>
+
+			<section class="breakdown text-block">
+				<section class="research">
+					<!--<span data-aos="hide-fade" data-aos-anchor=".ideation" data-aos-anchor-placement="top-center">
+					</span>-->
+					<h2 >Requirements & limitations gathering</h2>
+					<div class="step-block section-break">
+						<h3 >
+							Understand the problem with a mindful eye for tech limitation and scope
+						</h3>
+						<p>
+							I worked with my PM to gather requirements from the engineering team, and made sure they were reflected in the design. 
+						</p>
+
+                        <h2>Co-working hour with PM to shape the project vision</h2>
+                        <p>The project timeline was tight and I was told the design needed to be  done in 2 weeks. After many discussions on PRD, I hosted a quick working hour with the PM to make sure the mvp features are prioritized. </p>
+                        <div class="project_photowrap">
+                            <a href="imgs/Tunnel_v1@2x.png" data-lightbox="gallery" data-title="Tunnel version 1"><img src="./imgs/Tunnel_v1.png"></a>
+                        </div>
+					</div>
+				</section>
+
+					<h2 >Internal feedback from SEs & SMEs</h2>
+					<div class="step-block section-break">
+                        <div class="project_photowrap">
+                            <a href="imgs/Tunnel_SE@2x.png" data-lightbox="gallery" data-title="Tunnel internal feedback"><img src="./imgs/Tunnel_SE.png"></a>
+                            <ul>
+                                <li>To increase auditability and debugging capability, we should inform users of their tunnel birth date, and how to troubleshoot when their daemon is outdated.</li>
+                                <li>We should allow users to get started without CLI.</li>
+                                <li>We need to provide a way to show multiple connectors for power users, without sacrificing tunnel status visibility.</li>
+                            </ul>
+                        </div>
+								
+					</div>
+					
+                    <h2 >Quick iterations to confirm tech constraints, project scope, and user needs</h2>
+                    <div class="step-block section-break">
+                        <div class="project_photowrap">
+							<div><a href="imgs/Tunnel_Iteration@2x.png" data-lightbox="gallery" data-title="Iterations"><img src="./imgs/Tunnel_Iteration.png"></a></div>
+                            <ul>
+                                <li>This UI won’t show the disconnected connectors</li>
+                                <li>Users need to see last 4 digits of the tunnel ID</li>
+                                <li>Expired cloudflared daemon warning should be front and center</li>
+                                <li>The tunnel status is great but the dream scenario is having high level tunnel status on the page</li>
+                            </ul>
+                        </div>
+                    </div>
+
+					<div class="step-block section-break">
+                        <h2>So, what if a customer doesn’t have a tunnel?</h2>
+						<div class="project_photowrap">
+							<p>Initially we tried to build to solve this very straightforward yet pressing issue - let customers observe their tunnel health status. And this tunnel page will live on Teams dash as a tab. So, what if a customer doesn’t have a tunnel? Are they able to see this page? What do we show those customers when they land on this tunnel page for the first time? Do we simply send them away to read several pages of dev doc to learn how to create a tunnel, or do we help them to create a tunnel in dash?</p>
+                            <p>We strive to make network security products ridiculously easy. Non-tech savvy people should be able to use our product as well. Therefore, I put in a lot extra effort to make sure the first time flow is easy and tech-feasible.</p>
+                            <div><a href="imgs/Tunnel_Onboarding@2x.png" data-lightbox="gallery" data-title="Tunnel onboarding"><img src="./imgs/Tunnel_Onboarding.png"></a></div>
+						</div>
+					</div>
+
+				<section class="test">
+					<h1>Design Highlights</h1>
+					<div class="step-block section-break">
+                        <h2>Tunnel status observability is our bread and butter</h2>
+                        <div class="project_photowrap">
+							<div><a href="imgs/Tunnel_Highlight1@2x.png" data-lightbox="gallery" data-title="Highlight 1"><img src="./imgs/Tunnel_Highlight1.png"></a></div>
+						</div>
+					</div>
+                    
+                    <div class="step-block section-break">
+						<h2 >Scalable UI pattern within constraints </h2>
+						<p>Since we have a majority of users with only a few connectors and a few power users who potentially have many connectors, allowing to show all connectors on another page provides the flexibility for both types of users.
+
+                        <br><br>We also made sure the daemon expiration is front and center.</p>
+						<div class="project_photowrap">
+							<div><a href="imgs/Tunnel_Highlight2@2x.png" data-lightbox="gallery" data-title="Highlight 2"><img src="./imgs/Tunnel_Highlight2.png"></a></div>
+						</div>
+                    </div>
+                    
+                    <div class="step-block section-break">
+						<h2>Transformed complex tunnel creation process into easy-to-follow onboarding steps</h2>
+						<p>Simplified 1123 words of tutorial into a 7-step, sub 3-minute wizard. 
+                            Increased task efficiency 5x.
+                        </p>
+						<div class="project_photowrap">
+							<div><a href="imgs/Tunnel_Highlight3@2x.png" data-lightbox="gallery" data-title="Highlight 3"><img src="./imgs/Tunnel_Highlight3.png"></a></div>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<section class="conclusion text-block">
+				<h2>Impact</h2>
+				<h3 style="font-style: italic;">"I absolutely love it! It’s so easy to see all the important info in one place!"</h3>
+					<p>The new design increased task efficiency 5x and simplified 1123 words of tutorial into a 7-step, sub 3-minute wizard.</p>
+                    <div class="stat-bar">
+					<div class="stat-result">
+						<div class="label">Task efficiency</div>
+						<div class="stat-increase">
+							5x
+						</div>
+					</div>
+					
+					<div class="stat-result">
+						<div class="label">Tutorial word count</div>
+						<div class="stat-decrease">
+							80%
+						</div>
+                    </div>
+                </div>
+                <div class="project_photowrap">
+                    <div><a href="imgs/Tunnel_Impact@2x.png" data-lightbox="gallery" data-title="Impact"><img src="./imgs/Tunnel_Impact.png"></a></div>
+                </div>
+				<!--<video src="" alt="Positive Feedback Video"></video>
+				<h2>What I Learned</h2>
+				<p>
+					Even a tiny visual change matters in e-commerce
+					B2C E-commerce has its unique UX practices where not only do we need to focus on perfect user flows but final visual details are just as critical. Of course, all of the assessments took place within a fickle market and customer behavior varied significantly from day to day. H&D’s customer demographics also lean heavily towards older adults which brings a unique set of challenges and considerations. I needed to balance business needs while advocating for the users and measuring against a fluid backdrop. It was definitely a rewarding experience and helped lay down a solid foundation for my later projects at H&D.
+				</p>-->
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="icons">
+				<a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon" aria-label="Blair's LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+				<a href="mailto:yuyshen@umich.edu" class = "footer-icon" aria-label="Blair's email"><i class="far fa-envelope"></i></a>
+				<a href="https://medium.com/@blairshen_2615" class = "footer-icon" aria-label="Blair's medium" target="_blank"><i class="fab fa-medium-m"></i></a>
+				<a href="https://github.com/yuyinshen719" class = "footer-icon" aria-label="Blair's github" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.youtube.com/channel/UCBzxKMkzhkqK7rUM35Qp2hg/videos" class = "footer-icon" aria-label="Blair's Channel" target="_blank"><i class="fab fa-youtube"></i></a>
+			</div>
+			
+				<p>Blair Shen &copy; 2020</p>
+		</footer>
+		
+		<script src="js/jquery-3.2.1.min.js?ckcachebust=067865fdc4afa7db7a3489eb38cfe45a"></script>
+		<script src="js/lightbox.min.js"></script>
+		<script src="js/aos.js?ckcachebust=917b3323d0f63880e9dbd04bcd5e0a4e"></script>
+		<script src="js/main.js?ckcachebust=67db995ad848634308e538e6baa519c5"></script>
+		<script src="js/fomc.js"></script>
+	</body>
+</html>
