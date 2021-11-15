@@ -1022,7 +1022,7 @@ nav {
     justify-content: space-evenly; }
   .tunnel .projectinfo h3 {
     margin: 0 0 0.75em; }
-  .tunnel .projectinfo .skills ul, .fomc .projectinfo .skills li {
+  .tunnel .projectinfo .skills ul, .tunnel .projectinfo .skills li {
     list-style: none; }
   .tunnel .projectinfo .tools img {
     height: 4em;
@@ -1486,6 +1486,10 @@ input[type=submit] {
     width: 100%;
   }
 
+  .tunnel .text-block{
+    width: 100%;
+  }
+
   .card_title h2 {
     text-align: center;
     margin: auto; }
@@ -1609,7 +1613,16 @@ input[type=submit] {
   display: flex;
   }
 
+.tunnel .projectinfo .tools img{
+  margin-right: 0;
+  display: flex;
+  }
+
 .shard{
+  display: block;
+}
+
+.tunnel{
   display: block;
 }
 
